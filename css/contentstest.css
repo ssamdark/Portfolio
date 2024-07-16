@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+/*------------------------------------------------------
+· Portfolio Ver 1.0
+· Type : Contenttest.css
+· Author : You Ji Eun
+· Data : 2020.09.07
+· Copyright @ 2020 ssamD all rights reserved
+------------------------------------------------------ */
+
+/*------------------------------------------------------
+· Wrapper Style
+------------------------------------------------------ */
+.wrapper {display: flex;align-content: space-between;flex-wrap: wrap;position:fixed;left:0;top:0;right:0;bottom:0; padding-top:100px; /*헤더 높이*/overflow-y: auto;}
+
+@media(max-width:1600px){
+	.wrapper{padding:0 3rem;}
+}
+
+/*------------------------------------------------------
+· Flex Style
+------------------------------------------------------ */
+.flex{width:100%;padding:0 calc(50% - 745px);}
+
+/*------------------------------------------------------
+· Nav Style
+------------------------------------------------------ */
+.navContainer {position:fixed;z-index:10001;left:0;top:0;width:100%;height:5rem;background-color:#fff;}
+
+/*메인메뉴*/
+.allMenuWrap {display:flex;justify-content:flex-end;align-items:flex-start;position:relative;width:100%;height:5rem;margin:0 1.5rem;padding-top:2rem;}
+.allMenuWrap .logo {position:absolute;left:0;top:1rem;}
+.allMenuWrap .main {float:right; padding-right: 2rem;top:0 border:1px solid red;}
+
+/*------------------------------------------------------
+· Intro Style
+------------------------------------------------------ */
+.introWrap ul{display:flex; justify-content:space-between; flex-wrap:wrap;margin:6rem auto;align-items:flex-end;}

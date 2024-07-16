@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="83" height="84" viewBox="0 0 83 84">
+  <g id="그룹_1" data-name="그룹 1" transform="translate(180.787 -324.794) rotate(45)">
+    <g id="사각형_3" data-name="사각형 3" transform="translate(101.828 357.5) rotate(-45)" fill="#fff" stroke="#000" stroke-width="10">
+      <rect width="83" height="84" stroke="none"/>
+      <rect x="5" y="5" width="73" height="74" fill="none"/>
+    </g>
+    <rect id="사각형_1" data-name="사각형 1" width="62" height="13" transform="translate(130 351)"/>
+    <rect id="사각형_2" data-name="사각형 2" width="62" height="13" transform="translate(167.5 326.5) rotate(90)"/>
+  </g>
+</svg>
